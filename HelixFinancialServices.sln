@@ -11,6 +11,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Features", "Features", "{22
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelixFinancialServices.Website", "src\Project\HelixFinancialServices.Website\HelixFinancialServices.Website\HelixFinancialServices.Website.csproj", "{58DC1B3F-6749-465F-9B17-A4E1A48E0520}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelixFinancialServices.Theming", "src\Foundation\HelixFinancialServices.Theming\HelixFinancialServices.Theming\HelixFinancialServices.Theming.csproj", "{BC1CF1E8-4C73-496B-A313-7CD0EC94F380}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,11 +23,16 @@ Global
 		{58DC1B3F-6749-465F-9B17-A4E1A48E0520}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{58DC1B3F-6749-465F-9B17-A4E1A48E0520}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{58DC1B3F-6749-465F-9B17-A4E1A48E0520}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC1CF1E8-4C73-496B-A313-7CD0EC94F380}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC1CF1E8-4C73-496B-A313-7CD0EC94F380}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC1CF1E8-4C73-496B-A313-7CD0EC94F380}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC1CF1E8-4C73-496B-A313-7CD0EC94F380}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{58DC1B3F-6749-465F-9B17-A4E1A48E0520} = {61B891CE-6173-4365-9F07-4EAC6C3A2B9D}
+		{BC1CF1E8-4C73-496B-A313-7CD0EC94F380} = {9CF82142-9E51-4115-9ED5-E4CC1EF91DC3}
 	EndGlobalSection
 EndGlobal

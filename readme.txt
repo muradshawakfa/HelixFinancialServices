@@ -1,6 +1,7 @@
 Notes:
 -Edit zHabitat.devSettings.config under Configuration SOl Folder and change 'sourceFolder' according to your env
 -Edit gulp-config.js under Configuration SOl Folder and change 'websiteRoot' and 'sitecoreLibraries' according to your env
+-Edit publishsettings.targets' 'publishUrl' value to your local site's URL
 -Every project should have a config under App_config/Include/LayerName/projectname.Serialization.config with the proper <include> and <targetDataStore> filled accordingly
 -When you need to publish your project on the Task Runner Explorer and choose 03-PublishAllProjects
 

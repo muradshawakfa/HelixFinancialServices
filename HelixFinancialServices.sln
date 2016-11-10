@@ -9,14 +9,24 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Project", "Project", "{61B8
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Features", "Features", "{22D5FBFA-0668-4052-90F9-7D3CBA9BFFD6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelixFinancialServices.Website", "src\Project\Website\code\HelixFinancialServices.Website.csproj", "{58DC1B3F-6749-465F-9B17-A4E1A48E0520}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HFS.Website", "src\Project\Website\code\HFS.Website.csproj", "{58DC1B3F-6749-465F-9B17-A4E1A48E0520}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelixFinancialServices.Foundation.Theming", "src\Foundation\Theming\code\HelixFinancialServices.Foundation.Theming.csproj", "{BC1CF1E8-4C73-496B-A313-7CD0EC94F380}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HFS.Foundation.Theming", "src\Foundation\Theming\code\HFS.Foundation.Theming.csproj", "{BC1CF1E8-4C73-496B-A313-7CD0EC94F380}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Configuration", "Configuration", "{E1174A47-31E9-45E5-9471-48F74EDD5E26}"
 	ProjectSection(SolutionItems) = preProject
+		gulp-config.js = gulp-config.js
+		gulpfile-ci.js = gulpfile-ci.js
+		gulpfile.js = gulpfile.js
+		package.json = package.json
+		package.xml = package.xml
+		publishsettings.targets = publishsettings.targets
 		readme.txt = readme.txt
+		scripts\unicorn.js = scripts\unicorn.js
+		src\Project\Website\code\App_Config\Include\Project\zHabitat.devSettings.config = src\Project\Website\code\App_Config\Include\Project\zHabitat.devSettings.config
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HFS.Foundation.Serialization", "src\Foundation\Serialization\HFS.Foundation.Serialization\HFS.Foundation.Serialization.csproj", "{D5FA0A55-5AF2-408C-A1A8-F2EFE9C45340}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -32,6 +42,10 @@ Global
 		{BC1CF1E8-4C73-496B-A313-7CD0EC94F380}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BC1CF1E8-4C73-496B-A313-7CD0EC94F380}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BC1CF1E8-4C73-496B-A313-7CD0EC94F380}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5FA0A55-5AF2-408C-A1A8-F2EFE9C45340}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5FA0A55-5AF2-408C-A1A8-F2EFE9C45340}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5FA0A55-5AF2-408C-A1A8-F2EFE9C45340}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5FA0A55-5AF2-408C-A1A8-F2EFE9C45340}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -39,5 +53,6 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{58DC1B3F-6749-465F-9B17-A4E1A48E0520} = {61B891CE-6173-4365-9F07-4EAC6C3A2B9D}
 		{BC1CF1E8-4C73-496B-A313-7CD0EC94F380} = {9CF82142-9E51-4115-9ED5-E4CC1EF91DC3}
+		{D5FA0A55-5AF2-408C-A1A8-F2EFE9C45340} = {9CF82142-9E51-4115-9ED5-E4CC1EF91DC3}
 	EndGlobalSection
 EndGlobal
